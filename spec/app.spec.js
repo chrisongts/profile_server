@@ -1,7 +1,16 @@
 var app = require('../app');
 var request = require("request");
 var supertest = require("supertest");
-var base_url = "http://localhost:7000/";
+// var base_url = "http://localhost:7000/";
+// var base_url = "https://warm-river-72899.herokuapp.com/";
+
+// describe("Express Server API", function() {
+//   describe('should return users json on get /users', function() {
+//     it("returns status code 200", function (done) {
+//       supertest(app)
+//         .get('/users')
+//         .expect(200, done);
+// });
 
 describe("Express Server API", function () {
   describe('should return users json on get /users', function() {
